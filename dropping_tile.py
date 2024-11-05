@@ -12,13 +12,7 @@ class DroppingTile:
         (20, -20)
     )
 
-    pygame.mixer.init()
-    sound = pygame.mixer.Sound("pop_tile.mp3")
-
     def __init__(self, x: int, y:int, size: int, color:pygame.Color) -> None:
-
-        DroppingTile.sound.play()
-
         self.color = color
 
         self.pos = np.array([x + size / 2, y + size / 2], dtype=np.float64)

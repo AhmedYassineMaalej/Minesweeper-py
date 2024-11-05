@@ -18,11 +18,7 @@ class DroppingFlag:
         (-5, 15)
     )
 
-    sound = pygame.mixer.Sound("pop_unflag.mp3")
-
     def __init__(self, x: int, y:int, size: int) -> None:
-
-        DroppingFlag.sound.play()
 
         self.pos = np.array([x + size // 2, y + size // 2], dtype=np.float64)
         self.velocity = np.array(
