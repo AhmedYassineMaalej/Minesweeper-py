@@ -4,6 +4,11 @@ Clone of google's minesweeper game using python and the pygame library.
 
 ![](demo.gif)
 
+## How to run
+
+1. Make sure you have the [pygame](https://pypi.org/project/pygame/) library installed
+2. Open and run `minesweeper.py`
+
 ## Features
 
 #### Flagging
