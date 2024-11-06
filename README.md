@@ -2,7 +2,7 @@
 
 Clone of google's minesweeper game using python and the pygame library.
 
-![](demo.mp4)
+![](demo.gif)
 
 ## Features
 
